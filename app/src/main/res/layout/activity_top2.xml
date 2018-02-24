@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_top2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.mylaunchmode.singleTop.Top2Activity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/colorAccent"
+        android:text=""
+        android:layout_margin="10dp"
+        android:gravity="center_horizontal"
+        android:id="@+id/tv_id"
+        />
+    <Button
+        android:layout_below="@+id/tv_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimary"
+        android:text="top1Activity"
+        android:id="@+id/btn_top1"
+        />
+</RelativeLayout>
