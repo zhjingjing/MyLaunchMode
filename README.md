@@ -3,6 +3,7 @@
 1：standard 
 
    （一直在同一栈中）不管存在实例不存在，都重新创建activity
+   
 2：singleTop
 
   当跳转activity存在栈顶时,不创建实例，直接使用；
